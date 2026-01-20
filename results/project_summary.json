@@ -1,27 +1,27 @@
 {
   "results": {
     "best_model": "Random Forest",
-    "best_f1_score": 0.952076677316294,
+    "best_f1_score": 0.9283276450511946,
     "model_performance": {
       "Random Forest": {
-        "accuracy": 0.9503311258278145,
-        "precision": 0.9197530864197531,
-        "recall": 0.9867549668874173,
-        "f1": 0.952076677316294,
-        "roc_auc": 0.9875444059471076
+        "accuracy": 0.9233576642335767,
+        "precision": 0.8717948717948718,
+        "recall": 0.9927007299270073,
+        "f1": 0.9283276450511946,
+        "roc_auc": 0.9583355533059833
       },
       "Siamese Network": {
-        "accuracy": 0.8543046357615894,
-        "precision": 0.9495798319327731,
-        "recall": 0.7483443708609272,
-        "f1": 0.837037037037037,
-        "roc_auc": 0.9300030700407877
+        "accuracy": 0.8102189781021898,
+        "precision": 0.9207920792079208,
+        "recall": 0.6788321167883211,
+        "f1": 0.7815126050420168,
+        "roc_auc": 0.9049496510202996
       }
     },
     "dataset_size": {
       "table_a_samples": 2554,
       "table_b_samples": 22074,
-      "total_pairs": 2010
+      "total_pairs": 1822
     }
   }
 }
