@@ -1,11 +1,11 @@
 {
-  "report_generated": "2026-01-20 19:37:41",
+  "report_generated": "2026-01-22 16:29:13",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
-    "total_pairs": 1822,
-    "positive_pairs": 911,
-    "negative_pairs": 911
+    "total_pairs": 1766,
+    "positive_pairs": 883,
+    "negative_pairs": 883
   },
   "configuration": {
     "random_state": 42,
@@ -17,23 +17,23 @@
   },
   "model_performance": {
     "Random Forest": {
-      "accuracy": 0.9233576642335767,
-      "precision": 0.8717948717948718,
-      "recall": 0.9927007299270073,
-      "f1": 0.9283276450511946,
-      "roc_auc": 0.9583355533059833
+      "accuracy": 0.8528301886792453,
+      "precision": 0.8163265306122449,
+      "recall": 0.9090909090909091,
+      "f1": 0.8602150537634409,
+      "roc_auc": 0.9231601731601732
     },
     "Siamese Network": {
-      "accuracy": 0.8102189781021898,
-      "precision": 0.9207920792079208,
-      "recall": 0.6788321167883211,
-      "f1": 0.7815126050420168,
-      "roc_auc": 0.9049496510202996
+      "accuracy": 0.8415094339622642,
+      "precision": 0.9591836734693877,
+      "recall": 0.7121212121212122,
+      "f1": 0.8173913043478261,
+      "roc_auc": 0.9438368648894965
     }
   },
   "conclusions": {
     "best_model": "Random Forest",
-    "best_f1_score": 0.9283276450511946,
+    "best_f1_score": 0.8602150537634409,
     "performance_notes": "Models evaluated on test set with threshold 0.5"
   }
 }
