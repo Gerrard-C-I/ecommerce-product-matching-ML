@@ -1,21 +1,21 @@
 {
   "results": {
-    "best_model": "Random Forest",
-    "best_f1_score": 0.8602150537634409,
+    "best_model": "Siamese Network",
+    "best_f1_score": 0.9402985074626866,
     "model_performance": {
       "Random Forest": {
         "accuracy": 0.8528301886792453,
         "precision": 0.8163265306122449,
         "recall": 0.9090909090909091,
         "f1": 0.8602150537634409,
-        "roc_auc": 0.9231601731601732
+        "roc_auc": 0.9233310549100023
       },
       "Siamese Network": {
-        "accuracy": 0.8415094339622642,
-        "precision": 0.9591836734693877,
-        "recall": 0.7121212121212122,
-        "f1": 0.8173913043478261,
-        "roc_auc": 0.9438368648894965
+        "accuracy": 0.939622641509434,
+        "precision": 0.9264705882352942,
+        "recall": 0.9545454545454546,
+        "f1": 0.9402985074626866,
+        "roc_auc": 0.9884370015948962
       }
     },
     "dataset_size": {
