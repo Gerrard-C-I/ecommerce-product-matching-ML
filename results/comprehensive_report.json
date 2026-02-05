@@ -1,5 +1,5 @@
 {
-  "report_generated": "2026-01-22 18:55:10",
+  "report_generated": "2026-02-05 15:35:49",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
@@ -18,10 +18,10 @@
   "model_performance": {
     "Random Forest": {
       "accuracy": 0.8528301886792453,
-      "precision": 0.8163265306122449,
-      "recall": 0.9090909090909091,
-      "f1": 0.8602150537634409,
-      "roc_auc": 0.9233310549100023
+      "precision": 0.8079470198675497,
+      "recall": 0.9242424242424242,
+      "f1": 0.8621908127208481,
+      "roc_auc": 0.9137047163362952
     },
     "Siamese Network": {
       "accuracy": 0.939622641509434,
