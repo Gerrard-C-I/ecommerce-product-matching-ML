@@ -1,0 +1,35 @@
+{
+  "random_forest": {
+    "tuned": true,
+    "best_params": {
+      "bootstrap": true,
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "n_estimators": 300
+    },
+    "default_params": {
+      "n_estimators": 300,
+      "max_depth": 25,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2
+    }
+  },
+  "siamese_network": {
+    "tuned": true,
+    "best_params": {
+      "learning_rate": 6.358358856676247e-05,
+      "hidden_dim": 800,
+      "dropout_rate": 0.10823379771832098,
+      "batch_size": 32,
+      "weight_decay": 3.5498788321965036e-05
+    },
+    "default_params": {
+      "learning_rate": 5e-05,
+      "hidden_dim": 512,
+      "batch_size": 64,
+      "epochs": 25
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "report_generated": "2026-02-05 15:35:49",
+  "report_generated": "2026-02-05 21:00:31",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
@@ -21,19 +21,38 @@
       "precision": 0.8079470198675497,
       "recall": 0.9242424242424242,
       "f1": 0.8621908127208481,
-      "roc_auc": 0.9137047163362952
+      "roc_auc": 0.913362952836637
     },
     "Siamese Network": {
-      "accuracy": 0.939622641509434,
-      "precision": 0.9264705882352942,
-      "recall": 0.9545454545454546,
-      "f1": 0.9402985074626866,
-      "roc_auc": 0.9884370015948962
+      "accuracy": 0.9660377358490566,
+      "precision": 0.9555555555555556,
+      "recall": 0.9772727272727273,
+      "f1": 0.9662921348314607,
+      "roc_auc": 0.9882091592617908
     }
   },
   "conclusions": {
     "best_model": "Siamese Network",
-    "best_f1_score": 0.9402985074626866,
+    "best_f1_score": 0.9662921348314607,
     "performance_notes": "Models evaluated on test set with threshold 0.5"
+  },
+  "hyperparameter_tuning": {
+    "random_forest_tuned": true,
+    "siamese_network_tuned": true,
+    "random_forest_best_params": {
+      "bootstrap": true,
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "n_estimators": 300
+    },
+    "siamese_network_best_params": {
+      "learning_rate": 6.358358856676247e-05,
+      "hidden_dim": 800,
+      "dropout_rate": 0.10823379771832098,
+      "batch_size": 32,
+      "weight_decay": 3.5498788321965036e-05
+    }
   }
 }
