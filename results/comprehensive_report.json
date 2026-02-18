@@ -1,11 +1,11 @@
 {
-  "report_generated": "2026-02-17 17:36:50",
+  "report_generated": "2026-02-17 19:25:50",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
-    "total_pairs": 1766,
-    "positive_pairs": 883,
-    "negative_pairs": 883
+    "total_pairs": 2308,
+    "positive_pairs": 1154,
+    "negative_pairs": 1154
   },
   "configuration": {
     "random_state": 42,
@@ -17,23 +17,23 @@
   },
   "model_performance": {
     "Random Forest": {
-      "accuracy": 0.8528301886792453,
-      "precision": 0.8079470198675497,
-      "recall": 0.9242424242424242,
-      "f1": 0.8621908127208481,
-      "roc_auc": 0.913362952836637
+      "accuracy": 0.9855907780979827,
+      "precision": 0.9941176470588236,
+      "recall": 0.976878612716763,
+      "f1": 0.9854227405247813,
+      "roc_auc": 0.9963623679489735
     },
     "Siamese Network": {
-      "accuracy": 0.9584905660377359,
-      "precision": 0.9618320610687023,
-      "recall": 0.9545454545454546,
-      "f1": 0.9581749049429658,
-      "roc_auc": 0.9858737753474595
+      "accuracy": 0.8904899135446686,
+      "precision": 0.8729281767955801,
+      "recall": 0.9132947976878613,
+      "f1": 0.8926553672316384,
+      "roc_auc": 0.9577436715168428
     }
   },
   "conclusions": {
-    "best_model": "Siamese Network",
-    "best_f1_score": 0.9581749049429658,
+    "best_model": "Random Forest",
+    "best_f1_score": 0.9854227405247813,
     "performance_notes": "Models evaluated on test set with threshold 0.5"
   },
   "hyperparameter_tuning": {
@@ -41,11 +41,11 @@
     "siamese_network_tuned": true,
     "random_forest_best_params": {
       "bootstrap": true,
-      "max_depth": 20,
+      "max_depth": 10,
       "max_features": "sqrt",
-      "min_samples_leaf": 2,
-      "min_samples_split": 5,
-      "n_estimators": 300
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
     },
     "siamese_network_best_params": {
       "learning_rate": 6.358358856676247e-05,
