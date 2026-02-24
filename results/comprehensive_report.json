@@ -1,5 +1,5 @@
 {
-  "report_generated": "2026-02-23 13:48:41",
+  "report_generated": "2026-02-23 20:40:20",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
@@ -16,42 +16,42 @@
     "sentence_transformer": "all-MiniLM-L6-v2",
     "tfidf_max_features": 5000,
     "tfidf_ngram_range": "(1,2)",
-    "glove_model_name": "glove-wiki-gigaword-100",
-    "glove_embedding_dim": 100
+    "glove_model_name": "glove-wiki-gigaword-300",
+    "glove_embedding_dim": 300
   },
   "model_performance": {
     "Random Forest": {
-      "accuracy": 0.9020172910662824,
-      "precision": 0.8926553672316384,
-      "recall": 0.9132947976878613,
-      "f1": 0.9028571428571428,
-      "roc_auc": 0.9718291143445618
+      "accuracy": 0.8904899135446686,
+      "precision": 0.8688524590163934,
+      "recall": 0.9190751445086706,
+      "f1": 0.8932584269662921,
+      "roc_auc": 0.9564812969237925
     },
     "Siamese Network": {
-      "accuracy": 0.4956772334293948,
-      "precision": 0.46875,
-      "recall": 0.08670520231213873,
-      "f1": 0.14634146341463414,
-      "roc_auc": 0.5438176865324563
+      "accuracy": 0.49279538904899134,
+      "precision": 0.3333333333333333,
+      "recall": 0.017341040462427744,
+      "f1": 0.03296703296703297,
+      "roc_auc": 0.5313600425220916
     },
     "TF IDF + Logistic Regression": {
-      "accuracy": 0.8818443804034583,
-      "precision": 0.9024390243902439,
-      "recall": 0.8554913294797688,
-      "f1": 0.8783382789317508,
-      "roc_auc": 0.9616304564480764
+      "accuracy": 0.861671469740634,
+      "precision": 0.861271676300578,
+      "recall": 0.861271676300578,
+      "f1": 0.861271676300578,
+      "roc_auc": 0.9406019533585808
     },
     "GloVe + MLP": {
-      "accuracy": 0.7953890489913544,
-      "precision": 0.7383177570093458,
+      "accuracy": 0.8184438040345822,
+      "precision": 0.7669902912621359,
       "recall": 0.9132947976878613,
-      "f1": 0.8165374677002584,
-      "roc_auc": 0.8871835758421367
+      "f1": 0.8337730870712401,
+      "roc_auc": 0.9030629194073484
     }
   },
   "conclusions": {
     "best_model": "Random Forest",
-    "best_f1_score": 0.9028571428571428,
+    "best_f1_score": 0.8932584269662921,
     "performance_notes": "Models evaluated on test set with threshold 0.5"
   },
   "hyperparameter_tuning": {
