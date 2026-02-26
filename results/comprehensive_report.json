@@ -1,5 +1,5 @@
 {
-  "report_generated": "2026-02-23 20:40:20",
+  "report_generated": "2026-02-25 15:58:13",
   "dataset_info": {
     "table_a_samples": 2554,
     "table_b_samples": 22074,
@@ -12,7 +12,7 @@
     "test_size": 0.15,
     "validation_size": 0.15,
     "rf_n_estimators": 300,
-    "siamese_epochs": 1,
+    "siamese_epochs": 25,
     "sentence_transformer": "all-MiniLM-L6-v2",
     "tfidf_max_features": 5000,
     "tfidf_ngram_range": "(1,2)",
@@ -21,43 +21,56 @@
   },
   "model_performance": {
     "Random Forest": {
-      "accuracy": 0.8904899135446686,
-      "precision": 0.8688524590163934,
-      "recall": 0.9190751445086706,
-      "f1": 0.8932584269662921,
-      "roc_auc": 0.9564812969237925
+      "accuracy": 0.9106628242074928,
+      "precision": 0.9080459770114943,
+      "recall": 0.9132947976878613,
+      "f1": 0.9106628242074928,
+      "roc_auc": 0.9641718158261909
     },
     "Siamese Network": {
-      "accuracy": 0.49279538904899134,
-      "precision": 0.3333333333333333,
-      "recall": 0.017341040462427744,
-      "f1": 0.03296703296703297,
-      "roc_auc": 0.5313600425220916
+      "accuracy": 0.7838616714697406,
+      "precision": 0.7634408602150538,
+      "recall": 0.8208092485549133,
+      "f1": 0.7910863509749304,
+      "roc_auc": 0.854461497574912
     },
     "TF IDF + Logistic Regression": {
-      "accuracy": 0.861671469740634,
-      "precision": 0.861271676300578,
-      "recall": 0.861271676300578,
-      "f1": 0.861271676300578,
-      "roc_auc": 0.9406019533585808
+      "accuracy": 0.9135446685878963,
+      "precision": 0.9554140127388535,
+      "recall": 0.8670520231213873,
+      "f1": 0.9090909090909091,
+      "roc_auc": 0.9742209819945518
     },
     "GloVe + MLP": {
-      "accuracy": 0.8184438040345822,
-      "precision": 0.7669902912621359,
-      "recall": 0.9132947976878613,
-      "f1": 0.8337730870712401,
-      "roc_auc": 0.9030629194073484
+      "accuracy": 0.829971181556196,
+      "precision": 0.8064516129032258,
+      "recall": 0.8670520231213873,
+      "f1": 0.8356545961002786,
+      "roc_auc": 0.9082120789316324
     }
   },
   "conclusions": {
     "best_model": "Random Forest",
-    "best_f1_score": 0.8932584269662921,
+    "best_f1_score": 0.9106628242074928,
     "performance_notes": "Models evaluated on test set with threshold 0.5"
   },
   "hyperparameter_tuning": {
-    "random_forest_tuned": false,
-    "siamese_network_tuned": false,
-    "random_forest_best_params": null,
-    "siamese_network_best_params": null
+    "random_forest_tuned": true,
+    "siamese_network_tuned": true,
+    "random_forest_best_params": {
+      "bootstrap": true,
+      "max_depth": 10,
+      "max_features": null,
+      "min_samples_leaf": 1,
+      "min_samples_split": 5,
+      "n_estimators": 100
+    },
+    "siamese_network_best_params": {
+      "learning_rate": 6.358358856676247e-05,
+      "hidden_dim": 800,
+      "dropout_rate": 0.10823379771832098,
+      "batch_size": 32,
+      "weight_decay": 3.5498788321965036e-05
+    }
   }
 }

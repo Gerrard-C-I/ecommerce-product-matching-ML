@@ -1,10 +1,10 @@
 {
   "best_params": {
-    "learning_rate": 1.329291894316217e-05,
-    "hidden_dim": 987,
-    "dropout_rate": 0.39279757672456206,
+    "learning_rate": 6.358358856676247e-05,
+    "hidden_dim": 800,
+    "dropout_rate": 0.10823379771832098,
     "batch_size": 32,
-    "weight_decay": 0.003967605077052989
+    "weight_decay": 3.5498788321965036e-05
   },
-  "best_score": 0.6403712296983759
+  "best_score": 0.7392550143266475
 }
