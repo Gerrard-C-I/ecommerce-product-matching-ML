@@ -8,7 +8,7 @@ The datasets were originally introduced in the paper:
 
 More information about the datasets can be found in the original DeepMatcher repository:
 
-https://github.com/anhaidgroup/deepmatcher
+https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md
 
 ---
 
