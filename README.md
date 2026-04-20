@@ -1,4 +1,4 @@
-Additional files (such as trained models) are currently too large to include in the repository, but will be added or linked in future updates once a suitable structure or hosting solution is found.
+Additional files (such as trained models) are now attached in the ZIP file that I have attached in my submission.
 
 Google Colab was used to build and test this code.
 It is advised to run the code in the Google Colab environment for best compatibility and performance.
